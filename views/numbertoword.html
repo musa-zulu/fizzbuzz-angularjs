@@ -1,0 +1,17 @@
+
+<div class=details>
+    <h1>Please enter number to convert</h1>
+
+    <div ng-controller="NumberToWordController">  
+        <div id="controls" style="margin-bottom: 20px">	
+            <input ng-model="number_input"                
+                type="number" 			   
+                maxlength="9" 
+                ng-pattern="/^[0-9]{1,7}$"
+                style=" height: 20px !important; width: 116px;" />            
+            <button id="convert" ng-click="numberToWord(number_input)">Convert To Word</button>
+        </div>     
+        <span>{{output}}</span>
+    </div>        
+</div>
+        

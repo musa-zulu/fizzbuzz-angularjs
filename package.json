@@ -1,0 +1,12 @@
+{
+  "name": "MyApp",
+  "version": "0.0.1",
+  "description": "Application to display fizz buzz and convert a number to word",
+  "author": "Musa Zulu",
+  "devDependencies": {
+    "@angular/cli": "^8.1.1",
+    "gulp": "^3.8.8",
+    "gulp-util": "^2.2.20",
+    "gulp-webserver": "^0.8.1"
+  }
+}
